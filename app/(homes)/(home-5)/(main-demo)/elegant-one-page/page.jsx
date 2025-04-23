@@ -13,9 +13,9 @@ const ParallaxContainer = dynamic(
 );
 export const metadata = {
   title:
-    "Home 5 Main Demo Onepage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "SBFT || Sameer's Bureau For Trading",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Sameer Naghi for Petrochemical products is an Enterprise was established in 2020. ",
 };
 export default function Homepage() {
   return (
