@@ -1,9 +1,7 @@
 import React from "react";
 import About from "./About";
-import Image from "next/image";
 import Service from "./Service";
 import Contact from "./Contact";
-import Link from "next/link";
 
 export default function Home5({ onePage = false, dark = false }) {
   return (
