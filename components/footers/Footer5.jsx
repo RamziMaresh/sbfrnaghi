@@ -34,7 +34,7 @@ export default function Footer5() {
       <div className="footer-text">
         {/* Copyright */}
         <div>
-            © Sammer's Bureau For Trading {new Date().getFullYear()}          
+            © {new Date().getFullYear()} | Sameer Naghi for petrochemical Trading    
         </div>
         {/* End Copyright */}
         <div className="footer-made">All rights reserved</div>

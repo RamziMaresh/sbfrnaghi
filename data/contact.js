@@ -2,7 +2,7 @@ export const contactItems = [
   {
     iconClass: "mi-location",
     title: "Address",
-    text: "Jeddah,Saudi Arabia. POX.0000 0000 ",
+    text: "B.O.BOX  16304 , Jeddah 21464 , Saudi Arabia .",
     link: {
       url: "",
       text: "See Map",
@@ -15,7 +15,7 @@ export const contactItems = [
     title: "Email",
     text: "sameer@galaxyexporters.com ",
     link: {
-      url: "mailto:ibthemes21@gmail.com",
+      url: "mailto:sameer@galaxyexporters.com",
       text: "Say Hello",
     },
   },

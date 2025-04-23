@@ -32,7 +32,7 @@ export default function Header5({ links }) {
           <li className="ms-3 me-2" />
           <li>
             <a
-              href=""
+              href="mailto:sameer@galaxyexporters.com"
               className="opacity-1 no-hover"
               target="_blank"
             >
@@ -41,7 +41,7 @@ export default function Header5({ links }) {
                 data-btn-animate="y"
               >
                 <span className="btn-animate-y">
-                  <span className="btn-animate-y-1">Send us !</span>
+                  <span className="btn-animate-y-1">Contact Us</span>
                   <span className="btn-animate-y-2" >
                     Contact Us
                   </span>

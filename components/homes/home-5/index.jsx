@@ -17,7 +17,7 @@ export default function Home5({ onePage = false, dark = false }) {
               <div>
                 <div className="wow linesAnimIn" data-splitting="lines">
                   <h2 className="section-title mb-30 mb-sm-20">
-                    <span className="text-gray">About</span> SBFT
+                    <span className="text-gray">About</span> Us
                     <span className="text-gray">.</span>
                   </h2>
                   <div className="text-gray mb-30 mb-sm-20">
@@ -149,22 +149,20 @@ export default function Home5({ onePage = false, dark = false }) {
         <Service />
       </section>
 
-
       <section
         className={`small-section bg-dark-1 light-content`}
       >
- 
       </section>
 
       <section
         className={`page-section  scrollSpysection`}
-        id="contact"
+        id="sales"
       >
         <div className="container">
           <div className="row mb-70 mb-sm-50">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
               <h2 className="section-title mb-30 mb-sm-20">
-                <span className="text-gray">Contact</span> Us
+                <span className="text-gray">Sales</span>  Order
                 <span className="text-gray">.</span>
               </h2>
               <div className="text-gray">

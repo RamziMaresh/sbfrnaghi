@@ -17,7 +17,7 @@ export default function Contact() {
                       <i className={item.iconClass} />
                     </div>
                     <h4 className="ci-title">{item.title}</h4>
-                    <div className="ci-text large">{item.text}</div>
+                    <div className="ci-text ">{item.text}</div>
                     <div className="ci-link">
                       <a
                         href={item.link.url}
@@ -49,7 +49,7 @@ export default function Contact() {
               <div className="col-md-6">
                 {/* Name */}
                 <div className="form-group">
-                  <label htmlFor="name">Name</label>
+                  <label htmlFor="name">Legel Name</label>
                   <input
                     type="text"
                     name="name"
@@ -62,6 +62,7 @@ export default function Contact() {
                   />
                 </div>
               </div>
+
               <div className="col-md-6">
                 {/* Email */}
                 <div className="form-group">
@@ -78,10 +79,113 @@ export default function Contact() {
                   />
                 </div>
               </div>
+
+              <div className="col-md-6">
+                {/* Name */}
+                <div className="form-group">
+                  <label htmlFor="product_name">Product Name</label>
+                  <input
+                    type="text"
+                    name="product_name"
+                    id="product_name"
+                    className="input-lg round form-control"
+                    placeholder="Enter the product name"
+                    pattern=".{3,100}"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                {/* Name */}
+                <div className="form-group">
+                  <label htmlFor="quantity">Quantity</label>
+                  <input
+                    type="text"
+                    name="quantity"
+                    id="quantity"
+                    className="input-lg round form-control"
+                    placeholder=""
+                    pattern=".{3,100}"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                {/* Name */}
+                <div className="form-group">
+                  <label htmlFor="spot_contract">Spot or Contract</label>
+                  <input
+                    type="text"
+                    name="spot_contract"
+                    id="spot_contract"
+                    className="input-lg round form-control"
+                    placeholder=""
+                    pattern=".{3,100}"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                {/* Name */}
+                <div className="form-group">
+                  <label htmlFor="package">Package</label>
+                  <input
+                    type="text"
+                    name="package"
+                    id="package"
+                    className="input-lg round form-control"
+                    placeholder=""
+                    pattern=".{3,100}"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+
+              <div className="col-md-6">
+                {/* Name */}
+                <div className="form-group">
+                  <label htmlFor="destination">Destination ( Name of the Country ) .</label>
+                  <input
+                    type="text"
+                    name="destination"
+                    id="destination"
+                    className="input-lg round form-control"
+                    placeholder=""
+                    pattern=".{3,100}"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                {/* Name */}
+                <div className="form-group">
+                  <label htmlFor="seaport">Seaport Name</label>
+                  <input
+                    type="text"
+                    name="seaport"
+                    id="seaport"
+                    className="input-lg round form-control"
+                    placeholder="Enter Seaport Name"
+                    pattern=".{3,100}"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
             </div>
             {/* Message */}
             <div className="form-group">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Additional Info?</label>
               <textarea
                 name="message"
                 id="message"
