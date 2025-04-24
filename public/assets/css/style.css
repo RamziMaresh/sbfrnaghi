@@ -3990,7 +3990,7 @@ a {
 .mobile-on .desktop-nav ul li a:hover,
 .mobile-on .desktop-nav ul li a.active {
   background: rgba(255, 255, 255, 0.025);
-  color: #red;
+  color: var(--color-dark-1);
 }
 .mobile-on .desktop-nav ul li a:focus {
   outline-offset: -2px !important;
@@ -4126,7 +4126,7 @@ a {
   top: 0.5em;
 }
 .mobile-nav.active .mobile-nav-icon {
-  background: transparent;
+  background: var(--color-dark-1);
 }
 .mobile-nav.active .mobile-nav-icon:before {
   top: 0;
@@ -4273,6 +4273,20 @@ a {
   padding-top: var(--section-padding-y);
   padding-bottom: var(--section-padding-y);
 }
+
+.page-section-2{
+
+  width: 100%;
+  display: block;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .small-section {
   padding: 20px;
 }
@@ -9686,7 +9700,7 @@ a.portfolio-5-link:hover .portfolio-5-title span {
 .footer {
   font-size: 16px;
   background: #285E61;
-background: linear-gradient(90deg, rgba(40, 94, 97, 1) 0%, rgba(44, 122, 123, 1) 50%);
+background: linear-gradient(90deg, rgba(40, 94, 97, 1) 0%, rgba(40, 94, 97, 1)  50%);
 }
 .footer a {
   transition: all 0.17s var(--ease-default);
