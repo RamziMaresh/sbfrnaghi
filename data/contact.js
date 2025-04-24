@@ -4,7 +4,7 @@ export const contactItems = [
     title: "Address",
     text: "B.O.BOX  16304 , Jeddah 21464 , Saudi Arabia .",
     link: {
-      url: "",
+      url: "/",
       text: "See Map",
       rel: "nofollow noopener",
       target: "_blank",
@@ -13,9 +13,9 @@ export const contactItems = [
   {
     iconClass: "mi-email",
     title: "Email",
-    text: "sameer@galaxyexporters.com ",
+    text: "sameer@galaxyexporters.com | Hanadi@galaxyexporters.com",
     link: {
-      url: "mailto:sameer@galaxyexporters.com",
+      url: "mailto:sameer@galaxyexporters.com" ,
       text: "Say Hello",
     },
   },
@@ -24,7 +24,7 @@ export const contactItems = [
     title: "Phone & WhatsApp ",
     text: "(+966) 50-562-5277",
     link: {
-      url: "tel:+966505625277",
+      url: "/",
       text: "Call now",
     },
   },

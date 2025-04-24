@@ -5,7 +5,9 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="container">
-      <div className="row mt-n10 mb-60 mb-xs-40">
+
+
+<div className="row mt-n10 mb-60 mb-xs-40 mt-60">
         <div className="col-md-10 offset-md-1">
           <div className="row">
             {/* Phone */}
@@ -31,11 +33,11 @@ export default function Contact() {
                 </div>{" "}
               </React.Fragment>
             ))}
-
             {/* End Email */}
           </div>
         </div>
       </div>
+
       {/* Contact Form */}
       <div className="row">
         <div className="col-md-10 offset-md-1">

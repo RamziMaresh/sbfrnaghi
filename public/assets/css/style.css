@@ -4274,7 +4274,7 @@ a {
   padding-bottom: var(--section-padding-y);
 }
 .small-section {
-  padding: 100px 0;
+  padding: 20px;
 }
 .fixed-height-large {
   min-height: 800px;

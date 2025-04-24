@@ -150,27 +150,27 @@ export default function Home5({ onePage = false, dark = false }) {
       </section>
 
       <section
-        className={`small-section bg-dark-1 light-content`}
-      >
-      </section>
-
-      <section
-        className={`page-section  scrollSpysection`}
+        className={`page-section scrollSpysection bg-dark-1 light-content`}
         id="sales"
       >
         <div className="container">
-          <div className="row mb-70 mb-sm-50">
+          <div className="row mb-sm-50">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
               <h2 className="section-title mb-30 mb-sm-20">
                 <span className="text-gray">Sales</span>  Order
                 <span className="text-gray">.</span>
               </h2>
-              <div className="text-gray">
-                Feel Free to Contact Us, Get InTouch!
+              <div className="">
+                If you are a buyer, kindly contact the sales department as bellow:
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section
+        className={`page-section-2 `}
+      >
         <Contact />
       </section>
     </>
