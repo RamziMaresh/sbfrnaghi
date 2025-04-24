@@ -13,7 +13,7 @@ export const contactItems = [
   {
     iconClass: "mi-email",
     title: "Email",
-    text: "sameer@galaxyexporters.com | Hanadi@galaxyexporters.com",
+    text: "sameer@galaxyexporters.com, Hanadi@galaxyexporters.com",
     link: {
       url: "mailto:sameer@galaxyexporters.com" ,
       text: "Say Hello",

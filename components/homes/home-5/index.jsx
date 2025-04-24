@@ -150,13 +150,13 @@ export default function Home5({ onePage = false, dark = false }) {
       </section>
 
       <section
-        className={`page-section-2 scrollSpysection bg-dark-1 light-content`}
+        className={`page-section-2 mb-50 scrollSpysection bg-dark-1 light-content`}
         id="sales"
       >
         <div className="container">
           <div className="row mb-sm-50">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
-              <h2 className="section-title mb-30 mb-sm-20">
+              <h2 className="section-title mb-sm-20">
                 <span className="text-gray">Sales</span>  Order
                 <span className="text-gray">.</span>
               </h2>

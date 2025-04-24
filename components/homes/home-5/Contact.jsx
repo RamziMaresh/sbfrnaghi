@@ -5,39 +5,6 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="container">
-
-
-<div className="row mt-n10 mb-60 mb-xs-40 mt-60">
-        <div className="col-md-10 offset-md-1">
-          <div className="row">
-            {/* Phone */}
-            {contactItems.map((item, index) => (
-              <React.Fragment key={index}>
-                <div className={`col-md-6 col-lg-4 mb-md-30 `}>
-                  <div className="contact-item wow fadeScaleIn">
-                    <div className="ci-icon">
-                      <i className={item.iconClass} />
-                    </div>
-                    <h4 className="ci-title">{item.title}</h4>
-                    <div className="ci-text ">{item.text}</div>
-                    <div className="ci-link">
-                      <a
-                        href={item.link.url}
-                        target={item.link.target}
-                        rel={item.link.rel}
-                      >
-                        {item.link.text}
-                      </a>
-                    </div>{" "}
-                  </div>
-                </div>{" "}
-              </React.Fragment>
-            ))}
-            {/* End Email */}
-          </div>
-        </div>
-      </div>
-
       {/* Contact Form */}
       <div className="row">
         <div className="col-md-10 offset-md-1">
@@ -245,6 +212,40 @@ export default function Contact() {
               aria-atomic="true"
             />
           </form>
+
+          <hr />
+          <div className="row mt-n10 mb-60 mb-xs-40 mt-60 ">
+            <div className="col-md-10 offset-md-1">
+              <div className="row">
+                {/* Phone */}
+                {contactItems.map((item, index) => (
+                  <React.Fragment key={index}>
+                    <div className={`col-md-6 col-lg-4 mb-md-30 `}>
+                      <div className="contact-item wow fadeScaleIn">
+                        <div className="ci-icon">
+                          <i className={item.iconClass} />
+                        </div>
+                        <h4 className="ci-title">{item.title}</h4>
+                        <div className="ci-text ">{item.text}</div>
+                        {/** 
+                        <div className="ci-link">
+                          <a
+                            href={item.link.url}
+                            target={item.link.target}
+                            rel={item.link.rel}
+                          >
+                            {item.link.text}
+                          </a>
+                        </div>{" "}
+                        */}
+                      </div>
+                    </div>{" "}
+                  </React.Fragment>
+                ))}
+                {/* End Email */}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* End Contact Form */}
