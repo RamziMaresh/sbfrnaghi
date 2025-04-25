@@ -12,7 +12,7 @@ export default function Header5({ links }) {
             src="/assets/images/logo/main_logo_nobg.png"
             alt="Sameer_Company_Logo"
             width={270}
-            height={102}
+            height={202}
           />
         </a>
       </div>
