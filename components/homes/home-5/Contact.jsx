@@ -1,18 +1,82 @@
 "use client";
 import { contactItems } from "@/data/contact";
-import React from "react";
+import React, { useRef, useState, useEffect } from 'react';
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
+import validator from 'validator'
 
 export default function Contact() {
+  //
+  const [status, setStatus] = useState('');
+  const form = useRef(null);
+
+  const sendEmail = (e) => {
+    event.preventDefault();
+    if (
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID &&
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID &&
+      process.env.NEXT_PUBLIC_EMAILJS_USER_ID &&
+      form.current
+    ) {
+      emailjs
+        .sendForm(
+          process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+          process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+          form.current,
+          process.env.NEXT_PUBLIC_EMAILJS_USER_ID
+        )
+        .then(
+          (result) => {
+            setStatus('SUCCESS')
+            Swal.fire({
+              title: "Successfully Sent",
+              text: "Your message sent successfully, Will be contacting you within 24 hours. Thank you!",
+              icon: "success"
+            })
+          },
+          (error) => {
+            setStatus('FAILED... ', error.text)
+            Swal.fire({
+              title: "Failed...! ",
+              text: "Try again, or contact the support team to assest you.",
+              icon: "failed"
+            })
+
+
+          },
+        );
+      e.target.reset()
+    }
+  };
+  const [emailError, setEmailError] = useState('')
+  const [phoneNum, setPhoneNum] = useState('')
+  const [valid, setValid] = useState(true)
+
+
+
+  // Email Validation
+  const validateEmail = (e) => {
+    var email = e.target.value
+
+    if (validator.isEmail(email)) {
+      setEmailError('')
+    } else {
+      setEmailError('Enter valid Email!')
+    }
+
+  }
+
+
   return (
     <div className="container">
       {/* Contact Form */}
       <div className="row">
         <div className="col-md-10 offset-md-1">
           <form
-            onSubmit={(e) => e.preventDefault()}
+            ref={form}
+            onSubmit={sendEmail}
             className="form contact-form wow fadeInUp wch-unset"
             data-wow-delay=".5s"
-            id="contact_form"
           >
             <div className="row">
               <div className="col-md-6">
@@ -25,7 +89,6 @@ export default function Contact() {
                     id="name"
                     className="input-sm round form-control"
                     placeholder="Enter your name"
-                    pattern=".{3,100}"
                     required
                     aria-required="true"
                   />
@@ -42,10 +105,12 @@ export default function Contact() {
                     id="email"
                     className="input-sm round form-control"
                     placeholder="Enter your email"
-                    pattern=".{5,100}"
                     required
+                    data-error="Please enter your Email"
                     aria-required="true"
                   />
+                  <span style={{ fontWeight: '', color: 'red' }}>{emailError}</span>
+
                 </div>
               </div>
 
@@ -55,11 +120,11 @@ export default function Contact() {
                   <label htmlFor="phone">Phone Numbe</label>
                   <input
                     type="tel"
+                    pattern="[0-9]*"
                     name="phone"
                     id="phone"
                     className="input-sm round form-control"
                     placeholder="Include country key"
-                    pattern=".{5,100}"
                     required
                     aria-required="true"
                   />
@@ -76,7 +141,6 @@ export default function Contact() {
                     id="product_name"
                     className="input-sm round form-control"
                     placeholder="Enter the product name"
-                    pattern=".{3,100}"
                     required
                     aria-required="true"
                   />
@@ -93,7 +157,6 @@ export default function Contact() {
                     id="quantity"
                     className="input-sm round form-control"
                     placeholder=""
-                    pattern=".{3,100}"
                     required
                     aria-required="true"
                   />
@@ -110,7 +173,6 @@ export default function Contact() {
                     id="spot_contract"
                     className="input-sm round form-control"
                     placeholder=""
-                    pattern=".{3,100}"
                     required
                     aria-required="true"
                   />
@@ -127,7 +189,6 @@ export default function Contact() {
                     id="package"
                     className="input-sm round form-control"
                     placeholder=""
-                    pattern=".{3,100}"
                     required
                     aria-required="true"
                   />
@@ -145,7 +206,6 @@ export default function Contact() {
                     id="shipping_mode"
                     className="input-sm round form-control"
                     placeholder=""
-                    pattern=".{3,100}"
                     required
                     aria-required="true"
 
@@ -167,7 +227,6 @@ export default function Contact() {
                     id="destination"
                     className="input-sm round form-control"
                     placeholder=""
-                    pattern=".{3,100}"
                     required
                     aria-required="true"
                   />
@@ -184,42 +243,21 @@ export default function Contact() {
                     id="seaport"
                     className="input-sm round form-control"
                     placeholder="Enter Seaport Name"
-                    pattern=".{3,100}"
                     required
                     aria-required="true"
                   />
                 </div>
               </div>
             </div>
-            {/* Message 
-            <div className="form-group">
-              <label htmlFor="message">Additional Info?</label>
-              <textarea
-                name="message"
-                id="message"
-                className="input-sm round form-control"
-                style={{ height: 130 }}
-                placeholder="Enter your message"
-                defaultValue={""}
-              />
-            </div>
-            */}
+
             <div className="row">
-              <div className="col-sm-6">
-                {/* Inform Tip */}
-                <div className="form-tip pt-20 pt-sm-0">
-                  <i className="icon-info size-16" />
-                  All the fields are required. By sending the form you agree to
-                  the <a href="#">Terms &amp; Conditions</a> and{" "}
-                  <a href="#">Privacy Policy</a>.
-                </div>
-              </div>
               <div className="col-sm-6">
                 {/* Send Button */}
                 <div className="text-end pt-10">
                   <button
+                    ref={form}
                     type="submit"
-                    id="submit_btn"
+                    value="Send"
                     aria-controls="result"
                     className="submit_btn link-hover-anim link-circle-1 align-middle"
                     data-link-animate="y"
