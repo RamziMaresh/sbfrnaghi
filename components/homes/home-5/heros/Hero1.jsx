@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero1() {
   return (
-    <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
+    <div className="container min-height-70vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
       {/* Home Section Content */}
       <div className="home-content text-center">
         <h2 className="section-title-tiny mb-50 mb-sm-30 wow fadeInDownShort">
