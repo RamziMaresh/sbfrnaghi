@@ -7,8 +7,7 @@ export default function Home5({ onePage = false, dark = false }) {
   return (
     <>
       <section
-        className={`page-section  scrollSpysection pb-0 ${dark ? "bg-dark-1 light-content" : ""
-          } `}
+        className={`page-section  scrollSpysection pb-0`}
         id="about"
       >
         <div className="container position-relative">
@@ -25,7 +24,7 @@ export default function Home5({ onePage = false, dark = false }) {
                       Sameer Naghi for Petrochemical products is an Enterprise was established in 2020. The Enterprise role is to assist buyers find their products around the world.
                       We are also authorised to Market for others, and function as Mediators for other products as well.
                       Commission is to be paid by the sellers first, if not then the buyer is compelled to pay our commission.
-                      It is very necessary to state that only direct buyers are allowed to contact us, Brokers are not allowed to apply for products they will supply to others. 
+                      It is very necessary to state that only direct buyers are allowed to contact us, Brokers are not allowed to apply for products they will supply to others.
                       <br />
                       Any buyer applies to communicate with the seller, the must pay 50% of the commission or more to connect them with the sellers.
                     </p>
@@ -68,7 +67,7 @@ export default function Home5({ onePage = false, dark = false }) {
           </div>
         </div>
       </section>
-{/**
+      {/**
       <section
         className="page-section pt-0 pb-0 bg-dark-1 bg-dark-alpha-80 parallax-6 light-content"
         style={{
@@ -150,15 +149,18 @@ export default function Home5({ onePage = false, dark = false }) {
       </section>
 
       <section
-        className={`page-section mb-50 scrollSpysection bg-dark-1 light-content`}
+
+        className="page-section -bg-dark-alpha-70 light-content parallax-7 pb-140"
+        style={{
+          backgroundImage: "url(/assets/images/about/section-bg-4.jpg)",
+        }}
         id="sales"
       >
         <div className="container">
           <div className="row mb-sm-50">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
               <h2 className="section-title mb-sm-20">
-                <span className="text-gray">Sales</span>  Order
-                <span className="text-gray">.</span>
+                <span className="text-white">Sales</span>  Order
               </h2>
               <div className="">
                 If you are a buyer, kindly contact the sales department as bellow:
