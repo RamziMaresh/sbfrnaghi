@@ -13,11 +13,7 @@ export default function Service() {
         <div className="container position-relative">
           <div className="row mb-70 mb-sm-50">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
-              <h2 className="section-title mb-30 mb-sm-20">Our Services</h2>
-              <div className="text-gray">
-                In visual design, form is described as the way an artist
-                arranges elements in the entirety of a composition.
-              </div>
+              <h2 className="section-title mb-30 mb-sm-20">Our Products</h2>
             </div>
           </div>
         </div>
