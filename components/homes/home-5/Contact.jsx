@@ -23,7 +23,7 @@ export default function Contact() {
                     type="text"
                     name="name"
                     id="name"
-                    className="input-lg round form-control"
+                    className="input-sm round form-control"
                     placeholder="Enter your name"
                     pattern=".{3,100}"
                     required
@@ -40,8 +40,25 @@ export default function Contact() {
                     type="email"
                     name="email"
                     id="email"
-                    className="input-lg round form-control"
+                    className="input-sm round form-control"
                     placeholder="Enter your email"
+                    pattern=".{5,100}"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                {/* Email */}
+                <div className="form-group">
+                  <label htmlFor="phone">Phone Numbe</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    className="input-sm round form-control"
+                    placeholder="Include country key"
                     pattern=".{5,100}"
                     required
                     aria-required="true"
@@ -57,7 +74,7 @@ export default function Contact() {
                     type="text"
                     name="product_name"
                     id="product_name"
-                    className="input-lg round form-control"
+                    className="input-sm round form-control"
                     placeholder="Enter the product name"
                     pattern=".{3,100}"
                     required
@@ -74,7 +91,7 @@ export default function Contact() {
                     type="text"
                     name="quantity"
                     id="quantity"
-                    className="input-lg round form-control"
+                    className="input-sm round form-control"
                     placeholder=""
                     pattern=".{3,100}"
                     required
@@ -91,7 +108,7 @@ export default function Contact() {
                     type="text"
                     name="spot_contract"
                     id="spot_contract"
-                    className="input-lg round form-control"
+                    className="input-sm round form-control"
                     placeholder=""
                     pattern=".{3,100}"
                     required
@@ -108,7 +125,7 @@ export default function Contact() {
                     type="text"
                     name="package"
                     id="package"
-                    className="input-lg round form-control"
+                    className="input-sm round form-control"
                     placeholder=""
                     pattern=".{3,100}"
                     required
@@ -117,16 +134,38 @@ export default function Contact() {
                 </div>
               </div>
 
+              <div className="col-md-6">
+                {/* Name */}
+                <div className="form-group">
+                  <label htmlFor="shipping_mode">Shipping Mode</label>
+
+                  <select
+                    type="text"
+                    name="shipping_mode"
+                    id="shipping_mode"
+                    className="input-sm round form-control"
+                    placeholder=""
+                    pattern=".{3,100}"
+                    required
+                    aria-required="true"
+
+                  >
+                    <option value="1">FOB</option>
+                    <option value="2">CIF</option>
+                  </select>
+
+                </div>
+              </div>
 
               <div className="col-md-6">
                 {/* Name */}
                 <div className="form-group">
-                  <label htmlFor="destination">Destination ( Name of the Country ) .</label>
+                  <label htmlFor="destination">Destination (Name of the Country)</label>
                   <input
                     type="text"
                     name="destination"
                     id="destination"
-                    className="input-lg round form-control"
+                    className="input-sm round form-control"
                     placeholder=""
                     pattern=".{3,100}"
                     required
@@ -143,7 +182,7 @@ export default function Contact() {
                     type="text"
                     name="seaport"
                     id="seaport"
-                    className="input-lg round form-control"
+                    className="input-sm round form-control"
                     placeholder="Enter Seaport Name"
                     pattern=".{3,100}"
                     required
@@ -152,18 +191,19 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            {/* Message */}
+            {/* Message 
             <div className="form-group">
               <label htmlFor="message">Additional Info?</label>
               <textarea
                 name="message"
                 id="message"
-                className="input-lg round form-control"
+                className="input-sm round form-control"
                 style={{ height: 130 }}
                 placeholder="Enter your message"
                 defaultValue={""}
               />
             </div>
+            */}
             <div className="row">
               <div className="col-sm-6">
                 {/* Inform Tip */}
