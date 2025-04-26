@@ -117,11 +117,11 @@ export default function Contact() {
               <div className="col-md-6">
                 {/* Name */}
                 <div className="form-group">
-                  <label htmlFor="company_name">Company Name</label>
+                  <label htmlFor="company_n">Company Name</label>
                   <input
                     type="text"
-                    name="company_name"
-                    id="company_name"
+                    name="company_n"
+                    id="company_n"
                     className="input-sm round form-control"
                     placeholder="Enter your company name"
                     required
