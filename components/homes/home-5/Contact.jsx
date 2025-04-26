@@ -127,8 +127,6 @@ export default function Contact() {
                     required
                     aria-required="true"
                   />
-                  <span style={{ fontWeight: '', color: 'red' }}>{emailError}</span>
-
                 </div>
               </div>
 
