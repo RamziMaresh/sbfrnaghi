@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig}     distDir: "build",*/
 const nextConfig = {
 
 };

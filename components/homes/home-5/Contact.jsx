@@ -110,14 +110,14 @@ export default function Contact() {
                     aria-required="true"
                   />
                   <span style={{ fontWeight: '', color: 'red' }}>{emailError}</span>
-
                 </div>
               </div>
 
+
               <div className="col-md-6">
-                {/* Email */}
+                {/* Name */}
                 <div className="form-group">
-                  <label htmlFor="email">Company Name</label>
+                  <label htmlFor="company_name">Company Name</label>
                   <input
                     type="text"
                     name="company_name"
