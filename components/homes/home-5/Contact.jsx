@@ -117,7 +117,25 @@ export default function Contact() {
               <div className="col-md-6">
                 {/* Email */}
                 <div className="form-group">
-                  <label htmlFor="phone">Phone Numbe</label>
+                  <label htmlFor="email">Company Name</label>
+                  <input
+                    type="text"
+                    name="company_name"
+                    id="company_name"
+                    className="input-sm round form-control"
+                    placeholder="Enter your company name"
+                    required
+                    aria-required="true"
+                  />
+                  <span style={{ fontWeight: '', color: 'red' }}>{emailError}</span>
+
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                {/* Email */}
+                <div className="form-group">
+                  <label htmlFor="phone">Phone Number</label>
                   <input
                     type="tel"
                     pattern="[0-9]*"
