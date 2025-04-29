@@ -8,7 +8,7 @@ export default function Service() {
       <div
         className="page-section bg-dark-1 bg-dark-alpha-70 light-content parallax-7 pb-140"
         style={{
-          backgroundImage: "url(/assets/images/about/section-bg-3.jpg)",
+          backgroundImage: "url(/assets/images/banner/sec3.jpg)",
         }}
       >
         <div className="container position-relative">

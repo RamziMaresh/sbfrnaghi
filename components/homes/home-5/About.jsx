@@ -12,11 +12,11 @@ export default function About() {
         >
 
           <Image
-            src="/assets/images/about/about01.jpg"
+            src="/assets/images/banner/abo01.jpg"
             width={400}
             height={489}
             className="w-100 round"
-            alt="Image Description"
+            alt="about-img1"
           />
         </div>
         <div
@@ -26,11 +26,11 @@ export default function About() {
           data-rellax-percentage="0.5"
         >
           <Image
-            src="/assets/images/about/about02.jpg"
+            src="/assets/images/banner/abo02.jpg"
             width={400}
             height={489}
             className="w-100 round"
-            alt="Image Description"
+            
           />
 
         </div>

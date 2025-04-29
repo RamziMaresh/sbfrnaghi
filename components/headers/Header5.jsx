@@ -9,7 +9,7 @@ export default function Header5({ links }) {
       <div className="nav-logo-wrap local-scroll">
         <a href="#top" className="logo font-alt">
           <Image
-            src="/assets/images/logo/main_logo_nobg.png"
+            src="/assets/images/logo/mainlogo.jpg"
             alt="Sameer_Company_Logo"
             width={270}
             height={202}

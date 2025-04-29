@@ -3,7 +3,24 @@ import About from "./About";
 import Service from "./Service";
 import Contact from "./Contact";
 
-export default function Home5({ onePage = false, dark = false }) {
+
+export const metadata = {
+  title: {
+    template: "Sameer Naghi for petrochemical Trading",
+    default: "Sameer Naghi for petrochemical Trading", // a default is required when creating a template
+    description: "Petrochemicals, Chemicals, ubricant . Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
+  },
+  title_two: {
+    template: "Petrochemicals, Chemicals, ubricant . Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
+    default: "Safra Company Limited - Safra provides better solutions", 
+    description:"The production capacity of SAFRA refinery is continuously expanding to meet increasing demand for products while keeping pace with the latest technological developments and simultaneously meeting...",
+  },
+  description: "Sameer Naghi for petrochemical Trading | Petrochemicals, Chemicals, ubricant . Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
+};
+
+
+
+export default function Home5() {
   return (
     <>
       <section
@@ -21,7 +38,7 @@ export default function Home5({ onePage = false, dark = false }) {
                   </h2>
                   <div className="text-gray mb-30 mb-sm-20">
                     <p className="mb-0">
-                      Sameer Naghi for Petrochemical products is an Enterprise was established in 2020. The Enterprise role is to assist buyers find their products around the world.
+                      Sameer Naghi for Petroleum products is an Enterprise was established in 2020. The Enterprise role is to assist buyers find their products around the world.
                       We are also authorised to Market for others, and function as Mediators for other products as well.
                       Commission is to be paid by the sellers first, if not then the buyer is compelled to pay our commission.
                       It is very necessary to state that only direct buyers are allowed to contact us, Brokers are not allowed to apply for products they will supply to others.
@@ -152,7 +169,7 @@ export default function Home5({ onePage = false, dark = false }) {
 
         className="page-section -bg-dark-alpha-70 light-content parallax-7 pb-140"
         style={{
-          backgroundImage: "url(/assets/images/about/section-bg-4.jpg)",
+          backgroundImage: "url(/assets/images/banner/sec4.jpg)",
         }}
         id="sales"
       >

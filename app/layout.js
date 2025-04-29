@@ -13,6 +13,9 @@ import "tippy.js/dist/tippy.css";
 import { init_wow } from "@/utlis/initWowjs";
 import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";
 
+
+
+
 export default function RootLayout({ children }) {
   const path = usePathname();
 
