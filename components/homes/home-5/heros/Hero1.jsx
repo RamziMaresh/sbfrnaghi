@@ -1,4 +1,3 @@
-import AnimatedText from "@/components/common/AnimatedText";
 import React from "react";
 
 export default function Hero1() {
