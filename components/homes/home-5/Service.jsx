@@ -211,7 +211,7 @@ export default function Service() {
                       Play wood.
                     </li>
                     <li>
-                      Oak Logs.
+                      Wood Logs.
                     </li>
                   </ul>
                 </div>

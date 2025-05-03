@@ -13,9 +13,10 @@ const ParallaxContainer = dynamic(
 );
 export const metadata = {
   title:
-    "SBFT || Sameer Naghi for petrochemical Trading",
-  description:
-    "Sameer Naghi for Petrochemical products is an Enterprise was established in 2020. ",
+    "Sameer Naghi for petroleum Trading | Saudi Arabia",
+    default: "Sameer Naghi for petroleum Trading | Saudi Arabia", // a default is required when creating a template
+    description: "Our services are Petrochemicals, Chemicals, ubricant . Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
+
 };
 export default function Homepage() {
   return (
