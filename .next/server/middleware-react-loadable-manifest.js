@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST='{"app/layout.js -> bootstrap/dist/js/bootstrap.esm":{"id":200,"files":["static/chunks/200.e62f6a100cb7b449.js"]}}';

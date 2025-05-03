@@ -4,9 +4,9 @@ import React from "react";
 import Image from "next/image";
 export const metadata = {
   title:
-    "Page Not Found || Sameer's Bureah For Trading",
+    "Page Not Found || Sameer Naghi for Petroleum products",
   description:
-    "Sameer Naghi for Petrochemical products is an Enterprise was established in 2020. The Enterprise role is to assist buyers find their products around the world.",
+    "Sameer Naghi for Petroleum products is an Enterprise was established in 2020. The Enterprise role is to assist buyers find their products around the world.",
 };
 export default function MainAboutPage1() {
   return (

@@ -1,6 +1,0 @@
-{
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(homes)/(home-5)/(main-demo)/elegant-one-page/page": "app/(homes)/(home-5)/(main-demo)/elegant-one-page/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js"
-}
