@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[318],{318:function(e,n,u){u.r(n),u.d(n,{default:function(){return l}});var r=u(7437),c=u(2110),t=u(2265);function l(e){return(0,t.useEffect)(()=>{(0,c.a0)(document.querySelectorAll(".parallax-5"),{speed:.5})},[]),(0,r.jsx)("div",{...e,children:e.children})}}}]);

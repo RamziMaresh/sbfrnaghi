@@ -1,0 +1,15 @@
+{
+  "app/(homes)/(home-5)/(main-demo)/elegant-one-page/page.jsx -> @/components/common/ParallaxContainer": {
+    "id": 318,
+    "files": [
+      "static/chunks/110.8d81fe3c84eeddf9.js",
+      "static/chunks/318.dbd288c93b2d834c.js"
+    ]
+  },
+  "app/(homes)/(home-5)/(main-demo)/elegant-one-page/page.jsx -> bootstrap/dist/js/bootstrap.esm": {
+    "id": 200,
+    "files": [
+      "static/chunks/200.e62f6a100cb7b449.js"
+    ]
+  }
+}
