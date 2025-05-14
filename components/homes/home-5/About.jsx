@@ -1,5 +1,13 @@
 import React from "react";
 import Image from "next/image";
+
+export const metadata = {
+  title: "Sameer Naghi Est for petroleum Trading | Saudi Arabia",
+  default: "Sameer Naghi Est for petroleum Trading | Saudi Arabia", // a default is required when creating a template
+  description: "Sameer Naghi for Petroleum products is an Enterprise was established in 2020. The Enterprise role is to assist buyers find their products around the world. ",
+};
+
+
 export default function About() {
   return (
     <div className="col-lg-6 offset-lg-1 pb-100">

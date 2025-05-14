@@ -4,9 +4,9 @@ import React from "react";
 import Image from "next/image";
 export const metadata = {
   title:
-    "Page Not Found || Sameer Naghi for Petroleum products",
+    "Sameer Naghi Est for Petroleum Trading | Saudi Arabia",
   description:
-    "Sameer Naghi for Petroleum products is an Enterprise was established in 2020. The Enterprise role is to assist buyers find their products around the world.",
+    "Petroleum Supply. Our services are Petrochemicals, Chemicals, ubricant . Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
 };
 export default function MainAboutPage1() {
   return (
@@ -39,7 +39,7 @@ export default function MainAboutPage1() {
                     <li className="active">
                       <a href="mailto:ibthemes21@gmail.com">
                         <i className="mi-email align-center" />
-                        sameer@galaxyexporters.com 
+                        sameer@galaxyexporters.com
                       </a>
                     </li>
                     <li>
@@ -102,7 +102,6 @@ export default function MainAboutPage1() {
               {/* End Home Section */}
             </main>
           </>
-
           <Footer5 />
         </div>{" "}
       </div>
