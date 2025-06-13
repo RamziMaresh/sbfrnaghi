@@ -19,7 +19,6 @@ export default function Product() {
           <div className="row mb-70 mb-sm-50">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
               <h2 className="section-title mb-30 mb-sm-20">Our Products</h2>
-              <p>We Supply Petrochemicals, Chemicals, ubricant . Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood</p>
             </div>
           </div>
         </div>

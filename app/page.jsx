@@ -1,11 +1,9 @@
 
-import Homepage from "./(homes)/(home-5)/(main-demo)/elegant-one-page/page";
+import Homepage from "./home/page";
 export const metadata = {
-  title: {
-    template: "Sameer Naghi Est for petroleum Trading | Saudi Arabia",
-    default: "Sameer Naghi Est for petroleum Trading", // a default is required when creating a template
-    description: "Petrochemicals, Chemicals, ubricant . Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
-  },
+  title: "Sameer Naghi Est for petroleum Trading | Saudi Arabia",
+  default: "Sameer Naghi Est for petroleum Trading", // a default is required when creating a template
+  description: "Petrochemicals, Chemicals, ubricant . Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
 };
 
 export default function Home() {

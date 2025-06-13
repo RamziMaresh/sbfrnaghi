@@ -38,8 +38,8 @@ export const socialMediaLinks = [
     name: "Facebook",
   },
 
-  { href: "#", title: "LinkedIn", iconClass: "fa-linkedin", name: "linkedin" },
-  { href: "#", title: "WhatsApp", iconClass: "fa-whatsapp", name: "WhatsApp" },
+  { href: "https://www.linkedin.com/in/sameer-naghi-66982757/", title: "LinkedIn", iconClass: "fa-linkedin", name: "linkedin" },
+  { href: "https://wa.me/9660505625277?text=", title: "WhatsApp", iconClass: "fa-whatsapp", name: "WhatsApp" },
 ];
 
 export const navigationLinks = [

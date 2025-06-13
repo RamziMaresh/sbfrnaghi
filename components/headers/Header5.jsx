@@ -11,7 +11,7 @@ export default function Header5({ links }) {
           <Image
             src="/assets/images/logo/mainlogo.jpg"
             alt="Sameer_Company_Logo"
-            width={270}
+            width={180}
             height={202}
           />
         </a>

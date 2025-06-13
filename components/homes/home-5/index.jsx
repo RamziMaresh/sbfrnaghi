@@ -4,12 +4,9 @@ import Product from "./Products";
 import Contact from "./Contact";
 
 export const metadata = {
-  title: {
     title: "Sameer Naghi Est for petroleum Trading | Saudi Arabia",
-    template: "Sameer Naghi Est for petroleum Trading | Saudi Arabia",
     default: "Sameer Naghi Est for petroleum Trading | Saudi Arabia", // a default is required when creating a template
     description: "Petrochemicals, Chemicals, ubricant . Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
-  },
 };
 
 
@@ -49,8 +46,8 @@ export default function Home5() {
                       data-link-animate="y"
                     >
                       <span className="link-strong link-strong-unhovered">
-                        Our Supply Products {" "}
-                        <span className="visually-hidden">Products Supply</span>{" "}
+                        The Products We Supply {" "}
+                        <span className="visually-hidden">The Products We Supply</span>{" "}
                         <i
                           className="mi-arrow-right size-18 align-middle"
                           aria-hidden="true"
@@ -60,7 +57,7 @@ export default function Home5() {
                         className="link-strong link-strong-hovered"
                         aria-hidden="true"
                       >
-                        Products Supply {" "}
+                        The Products We Supply {" "}
                         <span className="visually-hidden">Read !</span>{" "}
                         <i
                           className="mi-arrow-right size-18 align-middle"

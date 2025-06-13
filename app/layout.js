@@ -1,33 +1,21 @@
 //import "swiper/css";
 import "../public/assets/css/styles.css";
 import "jarallax/dist/jarallax.min.css";
-//import "swiper/css/effect-fade";
+import "swiper/css/effect-fade";
 //import "react-modal-video/css/modal-video.css";
-//import "photoswipe/dist/photoswipe.css";
+import "photoswipe/dist/photoswipe.css";
 
 //
 
-
 export const metadata = {
-  title: {
-    template: "Sameer Naghi Est for petroleum Trading | Saudi Arabia",
-    default: "Sameer Naghi Est for petroleum Trading", // a default is required when creating a template
-  description: "Supply Products are Petrochemicals, Chemicals, ubricant. Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
-  },
-  title_two: {
-    template: "About us",
-    default: "Sameer Naghi Est for petroleum Trading | Petroleum Supply", // a default is required when creating a template
-  description: "Supply Products are Petrochemicals, Chemicals, ubricant. Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
-  },
-
+  title: "Sameer Naghi Est for petroleum Trading | Saudi Arabia",
+  default: "Sameer Naghi Est for petroleum Trading", // a default is required when creating a template
   description: "Supply Products are Petrochemicals, Chemicals, ubricant. Gas Engine Lubricant / Diesel Engine, Coal , Chare Coal Had Coal ,Pet Coal, Building Material, Fertilizers, Food Stuff and Oak Wood – Play wood",
 };
 
 
 
-
 export default function RootLayout({ children }) {
-
 
   return (
     <html lang="en" className="no-mobile no-touch ">
