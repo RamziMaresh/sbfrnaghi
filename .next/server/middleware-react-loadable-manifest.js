@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST='{"app/home/page.jsx -> @/components/common/ParallaxContainer":{"id":5031,"files":["static/chunks/153.e2a2c9262545c149.js","static/chunks/31.60a1b46013b21475.js"]},"app/home/page.jsx -> bootstrap/dist/js/bootstrap.esm":{"id":5471,"files":["static/chunks/471.e28df08bd567d5c9.js"]}}';

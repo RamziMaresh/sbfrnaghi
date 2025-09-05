@@ -81,6 +81,15 @@ export default function Product() {
                       Methanol.
                     </li>
                     <li>
+                      White Spirit.
+                    </li>
+                    <li>
+                      Toluene.
+                    </li>
+                    <li>
+                      Methanol.
+                    </li>
+                    <li>
                       Hydraulic Acid.
                     </li>
                     <li>
@@ -175,7 +184,7 @@ export default function Product() {
                 <h3 className="services-3-title">Building Material  </h3>
                 <div className="services-3-textm">
                   <ul className="services-3-text">
-                  <li>
+                    <li>
                       Clinker.
                     </li>
                     <li>
