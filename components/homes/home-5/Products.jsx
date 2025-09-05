@@ -87,7 +87,7 @@ export default function Product() {
                       Toluene.
                     </li>
                     <li>
-                      Methanol.
+                      Xylene.
                     </li>
                     <li>
                       Hydraulic Acid.
