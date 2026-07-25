@@ -7,7 +7,7 @@ export default function Hero1() {
       wow charsAnimInLong
       */}
       <div className="home-content text-center">
-        <h2 className="section-title-tiny mb-50 mb-sm-30 wow fadeInDownShort">
+        <h2 className="section-title-tiny mb-50 mb-sm-30">
           Hello &amp; Welcome
         </h2>
         <h1 className="hs-title-3 mb-80 mb-sm-50 mb-xs-30">
@@ -15,7 +15,7 @@ export default function Hero1() {
             Sameer for petroleum Trading
           </span>
         </h1>
-        <div className="local-scroll wow fadeInUpShort" data-wow-delay="0.57s">
+        <div className="local-scroll  fadeInUpShort" data-wow-delay="0.57s">
           <a
             href="#about"
             className="link-hover-anim link-circle-1 align-middle"
@@ -44,7 +44,7 @@ export default function Hero1() {
       {/* End Home Section Content */}
       {/* Scroll Down */}
       <div
-        className="local-scroll scroll-down-3-wrap wow fadeInUp"
+        className="local-scroll scroll-down-3-wrap fadeInUp"
         data-wow-offset={0}
       >
         <a href="#about" className="scroll-down-3">
