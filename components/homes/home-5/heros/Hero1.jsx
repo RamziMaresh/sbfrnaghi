@@ -3,13 +3,15 @@ import React from "react";
 export default function Hero1() {
   return (
     <div className="container min-height-70vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
-      {/* Home Section Content */}
+      {/* Home Section Content 
+      wow charsAnimInLong
+      */}
       <div className="home-content text-center">
         <h2 className="section-title-tiny mb-50 mb-sm-30 wow fadeInDownShort">
           Hello &amp; Welcome
         </h2>
         <h1 className="hs-title-3 mb-80 mb-sm-50 mb-xs-30">
-          <span className="wow charsAnimInLong" data-splitting="chars">
+          <span className="" data-splitting="chars">
             Sameer for petroleum Trading
           </span>
         </h1>

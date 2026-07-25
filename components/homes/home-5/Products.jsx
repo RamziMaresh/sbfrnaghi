@@ -35,34 +35,25 @@ export default function Product() {
                 <div className="services-3-textm">
                   <ul className="services-3-text">
                     <li>
-                      Light crude Oil (ESPO) Jet Fuel.
+                      Light Crude Oil ASPO
                     </li>
                     <li>
-                      Jet Fuel, Platts NEW / bbl.
+                      Diesel 50 PPM / 10 PPM
                     </li>
                     <li>
-                      Gasoline – EN 590 Platts FOB AR.
+                      Jet Fuel A1
                     </li>
                     <li>
-                      Gulf / bbl.
+                      LNG
                     </li>
                     <li>
-                      D2, 10 PPM and 50 PPM.
+                      LPG
                     </li>
                     <li>
-                      plats FOB Arabian Gulf bbl.
+                      Kerosene
                     </li>
                     <li>
-                      D6, (0.5-0.7 % sulfur NEW/ MT).
-                    </li>
-                    <li>
-                      Pet Coal, Raw and finished.
-                    </li>
-                    <li>
-                      Kerosene.
-                    </li>
-                    <li>
-                      Bitumen: 60/70 80/100 40/50.
+                      Bitumen: 60/70 80/100 40/50
                     </li>
                   </ul>
                 </div>
@@ -75,31 +66,22 @@ export default function Product() {
                 <div className="services-3-textm">
                   <ul className="services-3-text">
                     <li>
-                      Ethanol.
+                      Ethanol
                     </li>
                     <li>
-                      Methanol.
+                      Methanol
                     </li>
                     <li>
-                      White Spirit.
+                      Hydraulic Acid
                     </li>
                     <li>
-                      Toluene.
+                      Phosphoric Acid
                     </li>
                     <li>
-                      Xylene.
+                      HDP
                     </li>
                     <li>
-                      Hydraulic Acid.
-                    </li>
-                    <li>
-                      Phosphoric Acid.
-                    </li>
-                    <li>
-                      HDP.
-                    </li>
-                    <li>
-                      LDP.
+                      LDP
                     </li>
                   </ul>
                 </div>
@@ -131,13 +113,16 @@ export default function Product() {
                       Urea 46.
                     </li>
                     <li>
-                      NPK Dap.
+                      NPK.
+                    </li>
+                    <li>
+                      Dap.
                     </li>
                     <li>
                       Rock Phosphate.
                     </li>
                     <li>
-                      Phosphorous Acid.
+                      Phosphorous Acid. 
                     </li>
                     <li>
                       Sulfur, powder and Granular.
@@ -172,6 +157,15 @@ export default function Product() {
                     </li>
                     <li>
                       Halal Frozen Chicken.
+                    </li>
+                    <li>
+                      Coffee Bean.
+                    </li>
+                    <li>
+                      Corn.
+                    </li>
+                    <li>
+                      Wheat.
                     </li>
                   </ul>
                 </div>
@@ -229,6 +223,27 @@ export default function Product() {
                 </div>
               </div>
             </div>
+
+
+            <div className="services-3-item round text-center mb-50">
+              <div className="wow fadeInUpShort" data-wow-offset={50}>
+                <h3 className="services-3-title">Coal </h3>
+                <div className="services-3-textm">
+                  <ul className="services-3-text">
+                    <li>
+                      Charcoal.
+                    </li>
+                    <li>
+                      Coal ( Rock Coal ).
+                    </li>
+                    <li>
+                      Petcock.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
 
 
           </div>
